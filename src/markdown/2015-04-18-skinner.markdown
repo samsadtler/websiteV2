@@ -1,0 +1,18 @@
+---
+title:  "Skinner's Scanner"
+path: "/skinner"
+date:   2016-04-18 21:00:30
+---
+<div>
+	<iframe width="100%" height="480" src="https://www.youtube.com/embed/VqxwXtlUiYg" frameborder="0" allowfullscreen></iframe>
+</div>
+<div>
+	Skinner's Scanner is an interactive video projection installation which follows the day in the life of the scanner as it is used and abused at an elementary school. 
+
+	Users can walk up to the scanner and by lifting its lid can peer into the world from its point of view. 
+
+	This piece was shown in the 2016 xStory Showcase at NYU.
+
+	Skinner's Scanner was done in collaboration with <a href="oryano.com"> Oryan Inbar </a>, and <Link href="http://www.thearae.com/"/>Thea Rae</a>. Acting was done by Rocky
+</div>
+ <!-- <img src="{{post.img}}" class="img-responsive" alt="Responsive image"> -->

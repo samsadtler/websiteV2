@@ -1,0 +1,43 @@
+---
+path: "/whears"
+title:  "WHEARS"
+date:   2016-04-19 21:00:30
+categories: Making-Sense-of-Wearables
+description: A Device for connection and navigation
+permalink: whears
+img: /images/whears-hand.jpg
+---
+<div>
+	<iframe width="100%" height="480" src="https://www.youtube.com/embed/JSgkgHqbBLo" frameborder="0" allowfullscreen></iframe>
+</div>
+<div>
+	Whears is a device which enables its wearer to sense the direction of a loved one or place of interest through the use of vibration. The user enters a location through their smartphone and connects to the device through Bluetooth. When a location is entered the user receives a vibration on their wrist when they are facing the direction of that place. Thus enabling them to be reminded of that place throughout the day and have a constant reference point for when they are navigating. Or they can just change the location when they need to get to a new location. 
+</div>
+<div class="col-xs-11">
+	<img src="/img/whears-2.jpg" class="img-responsive" alt="Responsive image"/>
+</div>
+<div class="col-xs-11">
+	<p class="p-break">
+		Whears features a custom designed walnut, leather, and gold plated enclosure with a walnut and brass charging stand.
+	</p>	
+</div>
+<div class="col-xs-11">
+	<img src="/img/whears-board.jpg" class="img-responsive" alt="Responsive image"/>
+</div>
+<div class="col-xs-11">
+	<p class="p-break">
+		There is also a custom made circuit board which integrates with a bluetooth enabled Arduino board, vibration motors and a 9 degrees of freedom circuit integrated circuit.
+	</p>
+</div>
+
+<div class="col-xs-4">
+	<img src="/img/whears-search.png" class="img-responsive" alt="Responsive image"/>
+</div>
+<div class="col-xs-4">
+	<img src="/img/whears-search-2.png" class="img-responsive" alt="Responsive image"/>
+</div>
+<div class="col-xs-4">
+	<img src="/img/whears-search-3.png" class="img-responsive" alt="Responsive image"/>
+</div>
+
+
