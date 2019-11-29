@@ -5,7 +5,7 @@ date:   2016-04-20 21:00:30
 categories: Always-On
 description: shake it till you take it
 permalink: shakie
-img: /images/shakie-hand.jpg
+imgMain: ../images/shakie-hand.jpg
 ---
 <div>
 	<iframe width="100%" height="480" src="https://www.youtube.com/embed/8-9-8u0JUWc?list=PLp1AzLEITCFxnF3zXRn5ZErynB5Vg5Ynr" frameborder="0" allowfullscreen></iframe>

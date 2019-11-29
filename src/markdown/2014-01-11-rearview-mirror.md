@@ -2,6 +2,7 @@
 title: "Rearview Mirror"
 path: "/rearview"
 date: 2014-01-11T17:12:33.962Z
+imgMain: "../images/post-text.jpg"
 ---
 <div>
 	<iframe width="100%" height="480" src="https://www.youtube.com/embed/fK-cwCxU4IU" frameborder="0" allowfullscreen></iframe>

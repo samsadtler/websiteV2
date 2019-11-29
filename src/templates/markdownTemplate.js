@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 // import '../css/blog-post.css';
 export default function Template({ data }) {
   const { markdownRemark: post } = data
@@ -7,6 +8,8 @@ export default function Template({ data }) {
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
+        <Img>{imgMainFluid}</Img>
+        {console.log("frontmatter", post)}
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -24,6 +27,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        imgMain{
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

@@ -2,6 +2,7 @@
 title:  "Skinner's Scanner"
 path: "/skinner"
 date:   2016-04-18 21:00:30
+imgMain: "../images/post-text.jpg"
 ---
 <div>
 	<iframe width="100%" height="480" src="https://www.youtube.com/embed/VqxwXtlUiYg" frameborder="0" allowfullscreen></iframe>

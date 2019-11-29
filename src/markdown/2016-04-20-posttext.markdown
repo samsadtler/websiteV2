@@ -4,7 +4,7 @@ title:  "Post Text"
 date:   2016-04-20 21:00:30 
 description: Reimagining text messages through the traditional USPS
 permalink: posttext
-img: "/images/post-text.jpg"
+imgMain: "../images/post-text.jpg"
 ---
 
 

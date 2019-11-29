@@ -5,7 +5,7 @@ date:   2016-04-20 21:00:30
 categories: Connected Device  
 description: Design to help users disconnect from their everyday lives through the use of haptic vibrations that tell them to be more mindful.
 permalink: crete
-img: /images/crete-wire.jpg
+imgMain: ../images/crete-wire.jpg
 ---
 <div class="row">
 	<div class="embed-responsive embed-responsive-16by9">

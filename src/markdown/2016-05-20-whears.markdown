@@ -5,7 +5,7 @@ date:   2016-04-19 21:00:30
 categories: Making-Sense-of-Wearables
 description: A Device for connection and navigation
 permalink: whears
-img: /images/whears-hand.jpg
+imgMain: ../images/whears-hand.jpg
 ---
 <div>
 	<iframe width="100%" height="480" src="https://www.youtube.com/embed/JSgkgHqbBLo" frameborder="0" allowfullscreen></iframe>
