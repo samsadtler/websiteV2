@@ -14,14 +14,12 @@ export default function Index({ data }) {
         }) => {
           let imgMainFluid = post.frontmatter.imgMain.childImageSharp.fluid
           return (
-            <div className="blog-post-preview" key={post.id
-            }>
+            <div className="blog-post-preview" key={post.id}>
               <h1>
-                {console.log('data.allMarkdownRemark', data.allMarkdownRemark)}
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                <Img fluid={imgMainFluid} />
               </h1>
               <h2>{post.frontmatter.date}</h2>
+              <Img fluid={imgMainFluid} />
               <p>{post.excerpt}</p>
             </div>
           )
