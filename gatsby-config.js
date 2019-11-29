@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Sam Sadtler's Portfolio Site`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Sam Sadtler`,
+    description: `My portfolio site to give you a sense of who I am when it comes to technology, coding and sense of humor`,
     author: `@samsadtler`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

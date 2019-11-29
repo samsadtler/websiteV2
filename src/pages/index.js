@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { Container, Row, Col } from 'react-bootstrap'
 // import '../css/index.css'; // add some style if you want!
@@ -8,33 +9,29 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
-
-    <div className="blog-posts">
-      <Container fluid>
-        <Row>
-          {posts
-            .filter(post => post.node.frontmatter.title.length > 0)
-            .map(({ node: post
-            }) => {
-
-              let imgMainFluid = post.frontmatter.imgMain.childImageSharp.fluid
-              return (
-                <Col md={4} sm={6}>
-                  <div className="blog-post-preview" key={post.id}>
-                    <h1>
-                      <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                    </h1>
-                    <h2>{post.frontmatter.date}</h2>
-                    <Img fluid={imgMainFluid} style={{ maxWidth: "400px" }} />
-                    <p>{post.excerpt}</p>
-                  </div>
-                </Col>
-              )
-            })
-          }
-        </Row>
-      </Container>
-    </div>
+    <Layout>
+      <div className="blog-posts">
+        <Container fluid>
+          <Row>
+            {posts
+              .filter(post => post.node.frontmatter.title.length > 0)
+              .map(({ node: post
+              }) => {
+                let imgMainFluid = post.frontmatter.imgMain.childImageSharp.fluid
+                return (
+                  <Col md={4} sm={6}>
+                    <div className="blog-post-preview" key={post.id}>
+                      <Img fluid={imgMainFluid} style={{ maxWidth: "400px" }} />
+                      <p className="hoverPostExcerpt"> {post.description}</p>
+                    </div>
+                  </Col>
+                )
+              })
+            }
+          </Row>
+        </Container>
+      </div>
+    </Layout>
   )
 }
 
