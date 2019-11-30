@@ -1,20 +1,23 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../components/layout"
 import Img from "gatsby-image"
 // import '../css/blog-post.css';
 export default function Template({ data }) {
   const { markdownRemark: post } = data
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
-        {console.log("frontmatter", post)}
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+    <Layout>
+      <div className="blog-post-container">
+        <div className="blog-post">
+          <h1>{post.frontmatter.title}</h1>
+          {console.log("frontmatter", post)}
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

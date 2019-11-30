@@ -12,3 +12,32 @@
     width: 100%;
     
 }
+
+a{
+    color: green;
+    text-decoration: none; 
+}
+a:hover{
+    color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ml-auto{
+    a{
+        color: #777;
+        text-decoration: none; 
+        margin: 15px;
+    }
+    a:hover{
+        color: green;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+p{  
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

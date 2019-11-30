@@ -4,23 +4,23 @@ import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ background: `green`, marginBottom: `1.45rem`, }} >
-    <Navbar style={{ margin: `0 auto`, maxWidth: 960, padding: `1.45rem 1.0875rem`, color: `white`,}} >
-      <Navbar.Brand style={{ margin: 0 }}>
-        <Link to="/" style={{ color: `white`, textDecoration: `none`, }} >
+  <header style={{ marginBottom: `1.45rem`, }} >
+    <Navbar style={{ margin: `0 auto`, maxWidth: 960, padding: `1.45rem 1.0875rem`, }} >
+      <Navbar.Brand style={{ margin: 0, fontSize: '2.5em' }}>
+        <Link to="/" style={{ textDecoration: `none`, }} >
           {siteTitle}
         </Link>
       </Navbar.Brand>
       <Nav className="ml-auto">
-        <Nav.Link href="/about" className="" style={{ color: `white`, textDecoration: `none`, float:`right`}} >
+        <Link to="/about" className="" style={{ textDecoration: `none`, float: `right` }} >
           About
-          </Nav.Link>
-        <Nav.Link href="/resume" style={{ color: `white`, textDecoration: `none`, float:`right`}} >
+          </Link>
+        <Link to="/resume" style={{ textDecoration: `none`, float: `right` }} >
           Resume
-          </Nav.Link>
-        <Nav.Link href="/contact" style={{ color: `white`, textDecoration: `none`, float:`right`}} >
+          </Link>
+        <Link to="/contact" style={{ textDecoration: `none`, float: `right` }} >
           Contact
-        </Nav.Link>
+        </Link>
       </Nav>
     </Navbar>
   </header>
