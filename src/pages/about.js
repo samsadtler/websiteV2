@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { Container, Row, Col } from 'react-bootstrap'
@@ -46,7 +46,7 @@ export default function About({ data }) {
 
 export const pageQuery = graphql`
   query AboutQuery {
-        file(relativePath: {eq: "headshot.jpg" }) {
+        file(relativePath: {eq: "headshot-crop.jpg" }) {
             childImageSharp {
                 fluid(maxWidth: 300, maxHeight: 300) {
                     ...GatsbyImageSharpFluid
