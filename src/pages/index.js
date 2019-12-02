@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { Container, Row, Col } from 'react-bootstrap'
-// import '../css/index.css'; // add some style if you want!
+import { Image } from "../components/image"
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark

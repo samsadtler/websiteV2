@@ -16,17 +16,26 @@ import Img from "gatsby-image"
 const Image = (source) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "trailz.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
-          }
-        }
+      moontest: file(relativePath: { eq: "tw-moon-test-layout" }) {
+         ...fluidImage
+      }
+      moonfoot: file(relativePath: { eq: "tw-moon-foot.jpg" }) {
+        ...fluidImage
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.moonfoot.childImageSharp.fluid} />
 }
 
 export default Image
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
