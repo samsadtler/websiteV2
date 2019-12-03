@@ -33,7 +33,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: markdownTemplate,
       context: {
         slug: node.fields.slug,
-        source: node.source
       }, // additional data can be passed via context
     })
   })
