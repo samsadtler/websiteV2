@@ -45,12 +45,9 @@ const Trytc = () => (
                         <img src="https://touchcode.com/wp-content/uploads/2019/10/Step3-8.png" alt="Step3-8" />
                     </div>
                     <h3 style={{ color: '#009ade' }}>Step 3</h3>
-
                     <p>Your digital content is unlocked <br /> for the customer to enjoy.</p>
-
                 </div>
             </div>
-
         </div>
     </div>
 )
