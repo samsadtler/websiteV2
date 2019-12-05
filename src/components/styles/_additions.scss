@@ -48,3 +48,109 @@ p{
     margin-right: 10px;
 }
 
+.resume{
+     * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+
+        h1 {
+            color: black;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+
+        h3 {
+            color: black;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 9pt;
+        }
+
+        .a {
+            color: black;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 9pt;
+        }
+
+        .p,
+        p {
+            color: black;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 8pt;
+            margin: 0pt;
+        }
+
+        h4 {
+            color: black;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 8pt;
+        }
+
+        .s1 {
+            color: #00F;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: underline;
+            font-size: 8pt;
+        }
+
+        .s2 {
+            color: #00F;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 8pt;
+        }
+
+        .s3 {
+            color: #244BFE;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: underline;
+            font-size: 8pt;
+        }
+
+        h2 {
+            color: black;
+            font-family: "Avenir Next", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l1 {
+            padding-left: 0pt;
+        }
+
+        #l1>li>*:first-child:before {
+            content: "• ";
+            color: black;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+        }
+}
