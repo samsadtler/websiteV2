@@ -4,20 +4,20 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { Container, Row, Col } from 'react-bootstrap'
 
-export default function About({ data }) {
+export default function Rumes({ data }) {
     return (
         <Layout>
             <Container>
                 <Row>
                     <Col md={12}>
-
-                    </Col>
+                        
+                                            </Col>
                 </Row>
-            </Container>
+                                </Container>
         </Layout>
     )
 }
-
+ 
 export const pageQuery = graphql`
   query ResumeQuery {
         file(relativePath: {eq: "headshot.jpg" }) {
