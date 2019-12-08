@@ -20,7 +20,7 @@ export default function Index({ data }) {
                 let imgMainFluid = post.frontmatter.imgMain.childImageSharp.fluid
                 return (
 
-                  <Col md={4} style={{ padding: '2px' }}>
+                  <Col md={4} sm={12} style={{ padding: '2px' }}>
                     <Link to={post.frontmatter.path}>
                       <div className="blog-post-preview" key={post.id}>
                         <Img fluid={imgMainFluid} style={{ maxWidth: "400px" }} />
