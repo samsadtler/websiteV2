@@ -6,7 +6,7 @@ import { Navbar, Nav } from "react-bootstrap"
 const Header = ({ siteTitle }) => (
   <header style={{ marginBottom: `1.45rem`, }} >
     <Navbar collapseOnSelect expand="md" style={{ margin: `0 auto`, maxWidth: 960, padding: `1.45rem 1.0875rem`, }} >
-      <Navbar.Brand style={{ margin: 0}}>
+      <Navbar.Brand style={{ margin: 0, fontSize: '2.1em'}}>
         <Nav.Link href="/" style={{ textDecoration: `none`, }} >
           {siteTitle}
         </Nav.Link>
