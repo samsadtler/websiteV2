@@ -8,3 +8,6 @@
 
 [![Deployed on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
+## Checkout the Result
+
+[samsadtler.com](https://samsadtler.com)
