@@ -13,7 +13,7 @@ export default function Resume({ data }) {
                     <Col md={12} className="resume">
                         <h3 style={{ paddingTop: 4 + "pt", paddingLeft: 5 + "pt", textIndent: 0 + "pt", textAlign: "justify" }}><a href="http://www.samsadtler.com/" class="a"
                             target="_blank" rel="noopener noreferrer" >Brooklyn, NY </a><a href="mailto:sam.sadtler@gmail.com" class="a" target="_blank" rel="noopener noreferrer" >•
-            www.samsadtler.com • github.com/samsadtler • </a>sam.sadtler@gmail.com • 508-423-0947</h3>
+            www.samsadtler.com • github.com/samsadtler • </a>sam.sadtler@gmail.com </h3>
                         <p style={{ paddingTop: "10pt", paddingLeft: 5 + "pt", textIndent: 0 + "pt", textAlign: "justify" }}>Software developer with seven
                             years of experience in software, electronics and product development. Currently focused on full stack
                             development that combine the power of software and hardware to extend human capabilities. Expertise in software,
