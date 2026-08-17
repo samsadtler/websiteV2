@@ -1,4 +1,5 @@
-.cache
+.next
+out
 package.json
-package-lock.json
+bun.lock
 public
