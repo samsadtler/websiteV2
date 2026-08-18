@@ -41,7 +41,7 @@ Configured in `netlify.toml`:
 
 - Build command: `bun run build`
 - Publish directory: `out`
-- Node version: `22` (also in `.nvmrc`)
+- Node version: `24` (also in `.nvmrc`)
 
 Netlify auto-detects `bun.lock` and installs with Bun. On the first deploy after
 switching from the old Gatsby setup, use **Clear cache and deploy site**.
